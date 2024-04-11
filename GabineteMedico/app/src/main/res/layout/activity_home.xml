@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_geral">
+
+    <ImageButton
+        android:id="@+id/img_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/img_menu"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonAtendimento"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/shape_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331"
+        app:srcCompat="@drawable/gerencia_atendimento" />
+
+    <ImageButton
+        android:id="@+id/buttonEstoque"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/shape_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAtendimento"
+        app:layout_constraintVertical_bias="0.43"
+        app:srcCompat="@drawable/gerencia_estoque" />
+
+    <TextView
+        android:id="@+id/textAtendimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atendimentos"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonAtendimento"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAtendimento"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/buttonAtendimento"
+        app:layout_constraintTop_toTopOf="@+id/buttonAtendimento"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/textEstoque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estoque"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonEstoque"
+        app:layout_constraintEnd_toEndOf="@+id/buttonEstoque"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/buttonEstoque"
+        app:layout_constraintTop_toTopOf="@+id/buttonEstoque"
+        app:layout_constraintVertical_bias="0.888" />
+</androidx.constraintlayout.widget.ConstraintLayout>
