@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_geral">
+
+
+    <ImageButton
+        android:id="@+id/buttonVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/creme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096"
+        app:srcCompat="@drawable/button_voltar" />
+
+    <FrameLayout
+        android:id="@+id/frameFundo"
+        android:layout_width="413dp"
+        android:layout_height="515dp"
+        android:background="@drawable/frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="413dp"
+        android:layout_height="498dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/shape_generica"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/frameFundo"
+        app:layout_constraintTop_toTopOf="@+id/frameFundo"
+        tools:ignore="MissingConstraints">
+
+    </View>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081"
+        app:srcCompat="@drawable/icone_estoque" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameFundo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/frameFundo"
+        app:layout_constraintTop_toTopOf="@+id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tabelaCodigo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_entrada"
+                android:text="Código | Nome"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="1 | Nimesulida "
+                android:paddingStart="15dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="2 | Paracetamol"
+                android:paddingStart="15dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="3 | Ibuprofeno"
+                android:paddingStart="15dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="4 | Amoxicilina"
+                android:paddingStart="15dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/pesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/shape_entrada"
+        android:hint="Pesquisar"
+        android:paddingStart="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/frameFundo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_entrada"
+        app:layout_constraintBottom_toBottomOf="@+id/pesquisar"
+        app:layout_constraintEnd_toEndOf="@+id/pesquisar"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="@+id/pesquisar"
+        app:layout_constraintTop_toTopOf="@+id/pesquisar"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/lupa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
