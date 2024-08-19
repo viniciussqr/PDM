@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">GabineteMedico</string>
+    <string name="login">Login</string>
+    <string name="confirma">Confirmar</string>
+    <string name="Pesquisar">Pesquisar</string>
+    <string name="estoque">Estoque</string>
+    <string name="atendimento">Atendimentos</string>
+    <string name="imagem">Imagem descrição</string>
+    <string name="imagem2">Imagem description</string>
+    ] <string name="imagem3">description</string>
+    <string name="usuario">Insira seu nome de usuário</string>
+    <string name="codigo">Insira seu código do SIAPE</string>
+    <string name="senha">Insira sua senha</string>
 </resources>
