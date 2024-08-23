@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gabinete_PDM</string>
+    <string name="Atendimento">Atendimento</string>
+    <string name="estoque">Estoque</string>
+    <string name="notificacao">Notificação</string>
+    <string name="perfil">Perfil</string>
+</resources>
