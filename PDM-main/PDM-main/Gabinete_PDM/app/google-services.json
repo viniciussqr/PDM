@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "996312304683",
+    "firebase_url": "https://gabinete-medico-default-rtdb.firebaseio.com",
+    "project_id": "gabinete-medico",
+    "storage_bucket": "gabinete-medico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996312304683:android:54612625d8a4cf9ffc6e6e",
+        "android_client_info": {
+          "package_name": "com.example.gabinete_pdm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALvOJ5LA5cHvE3Rzr8LDYW32FBB_u-IRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

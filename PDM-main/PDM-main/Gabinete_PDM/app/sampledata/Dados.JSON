@@ -1,0 +1,35 @@
+[
+  {
+    "Codigo": "AT001",
+    "Status": "Em Andamento",
+    "Prontuario": "123456",
+    "Sintomas": "Dor de cabeça, febre",
+    "Data": "2024-08-20",
+    "Hora": "14:30",
+    "Codigo do Medico": "MED123",
+    "Codigo do Servidor": "SERV456",
+    "Codigo do Paciente": "PAC789"
+  },
+  {
+    "Codigo": "AT002",
+    "Status": "Concluído",
+    "Prontuario": "654321",
+    "Sintomas": "Tosse, falta de ar",
+    "Data": "2024-08-21",
+    "Hora": "09:15",
+    "Codigo do Medico": "MED124",
+    "Codigo do Servidor": "SERV457",
+    "Codigo do Paciente": "PAC790"
+  },
+  {
+    "Codigo": "AT003",
+    "Status": "Cancelado",
+    "Prontuario": "789456",
+    "Sintomas": "Náuseas",
+    "Data": "2024-08-22",
+    "Hora": "16:00",
+    "Codigo do Medico": "MED125",
+    "Codigo do Servidor": "SERV458",
+    "Codigo do Paciente": "PAC791"
+  }
+]

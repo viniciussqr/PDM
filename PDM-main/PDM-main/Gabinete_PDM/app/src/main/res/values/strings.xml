@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gabinete_PDM</string>
+    <string name="Atendimento">Atendimentos</string>
+    <string name="estoque">Estoque</string>
+    <string name="notificacao">Notificação</string>
+    <string name="perfil">Perfil</string>
+    <string name="voltar">Voltar</string>
+    <string name="entrar">Entrar</string>
+    <string name="Home">Home</string>
+    <string name="Pesquisar">Pesquisar</string>
+    <string name="IFAM">IFAM-CMC</string>
+    <string name="Login">LOGIN</string>
+    <string name="cadastro">CADASTRO</string>
+    <string name="nome">Insira seu nome</string>
+    <string name="usuario">Insira seu nome de usuário</string>
+    <string name="SIAPE">Insira seu código do SIAPE</string>
+    <string name="Senha">Insira sua senha</string>
+    <string name="email">Insira seu e-mail</string>
+    <string name="telefone">Insira seu telefone</string>
+    <string name="Especializacao">Insira sua especialização</string>
+    <string name="Auxiliar">Se você não tem uma conta, Cadastre-se aqui.</string>
+</resources>
